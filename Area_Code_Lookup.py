@@ -168,7 +168,8 @@ class AreaCodeSearcher:
             "307": (42.7550, -107.3025),  # Wyoming
 #>===================================================================
             #^ Next Country Area Codes, add under this if adding for another country    
-         }
+            #"":(), 
+        }
 
         if area_code not in area_code_coordinates:
             response_text = f"Area code {area_code} not found in the database."
